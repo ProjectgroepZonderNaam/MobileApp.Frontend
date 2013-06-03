@@ -21,13 +21,45 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int account24=0x7f020000;
+        public static final int account32=0x7f020001;
+        public static final int account48=0x7f020002;
+        public static final int account_hover24=0x7f020003;
+        public static final int account_hover32=0x7f020004;
+        public static final int account_hover48=0x7f020005;
+        public static final int apps24=0x7f020006;
+        public static final int apps32=0x7f020007;
+        public static final int apps48=0x7f020008;
+        public static final int apps_hover24=0x7f020009;
+        public static final int apps_hover32=0x7f02000a;
+        public static final int apps_hover48=0x7f02000b;
+        public static final int doelen24=0x7f02000c;
+        public static final int doelen32=0x7f02000d;
+        public static final int doelen48=0x7f02000e;
+        public static final int doelen_hover24=0x7f02000f;
+        public static final int doelen_hover32=0x7f020010;
+        public static final int doelen_hover48=0x7f020011;
+        public static final int ic_launcher=0x7f020012;
+        public static final int icon_account_tab=0x7f020013;
+        public static final int icon_apps_tab=0x7f020014;
+        public static final int icon_doelen_tab=0x7f020015;
+        public static final int icon_over_tab=0x7f020016;
+        public static final int over24=0x7f020017;
+        public static final int over32=0x7f020018;
+        public static final int over48=0x7f020019;
+        public static final int over_hover24=0x7f02001a;
+        public static final int over_hover32=0x7f02001b;
+        public static final int over_hover48=0x7f02001c;
     }
     public static final class id {
         public static final int action_settings=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int account_layout=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int apps_layout=0x7f030002;
+        public static final int doelen_layout=0x7f030003;
+        public static final int over_layout=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f070000;

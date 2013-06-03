@@ -22,6 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!--  Apps Activity -->
+        <activity android:name=".AppsActivity" />
+        
+        <!--  Account Activity -->
+        <activity android:name=".AccountActivity" />
+        
+        <!--  Goede Doelen Activity -->
+        <activity android:name=".DoelenActivity" />
+        
+        <!--  Over Activity -->
+        <activity android:name=".OverActivity" />
+        
     </application>
 
 </manifest>

@@ -3,6 +3,6 @@
 
     <string name="app_name">MobileApp.Frontend</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Chivan world!</string>
+    <string name="hello_world">Hello</string>
 
 </resources>
