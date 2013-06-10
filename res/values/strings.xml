@@ -3,6 +3,36 @@
 
     <string name="app_name">MobileApp.Frontend</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello</string>
-
+   	<string name="hello_world">Hello</string>
+    
+    <!-- ACCOUNT SCHERM -->
+   	
+    <string name="account_mijnaccount">Mijn account</string>
+    <string name="account_naam">Hier een naam</string>
+    <string name="account_email">Hier een emailadres</string>
+    <string name="account_titel">Goede doelen app</string>
+    <string name="account_totaal">Totaal gedoneerd:</string>
+    <string name="account_totaalbedrag">€100,00</string>
+    <string name="account_loguit">Log uit</string>
+	<string name="account_titelonder">Ik heb gedoneerd</string>
+	<string name="account_box1">Box 1</string>
+	<string name="account_box1tekst">Beschrijving box 1</string>
+	<string name="account_box2">Box 2</string>
+	<string name="account_box2tekst">Beschrijving box 2</string>
+	<string name="account_bedragbox1">€10,00</string>
+	<string name="account_bedragbox2">€10,00</string>
+	
+	<!-- OVER ONS SCHERM -->
+	
+	<string name="over_titel">Moeilijk veel informatie.</string>
+	<string name="over_informatie">Bla bla bla lorem ipsum bla bla bla schaap. Jaja mooie app he echt super gemaakt.</string>
+	
+	<!-- APP VD DAG SCHERM -->
+	<string name="dagapp_titel1">Super geweldige</string>
+	<string name="dagapp_titel2">app van de dag.</string>
+	<string name="dagapp_prijs">€0,99</string>
+	<string name="dagapp_donatie">Doneer €0,15 aan:</string>
+	<string name="dagapp_donatie_app1">KWF Kankerbestrijding</string>
+	<string name="dagapp_donatie_app2">WNF Natuurfonds</string>
+	<string name="dagapp_download">Download Nu</string>
 </resources>

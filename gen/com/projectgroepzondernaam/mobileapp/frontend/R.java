@@ -27,63 +27,111 @@ public final class R {
         public static final int account_hover24=0x7f020003;
         public static final int account_hover32=0x7f020004;
         public static final int account_hover48=0x7f020005;
-        public static final int apps24=0x7f020006;
-        public static final int apps32=0x7f020007;
-        public static final int apps48=0x7f020008;
-        public static final int apps_hover24=0x7f020009;
-        public static final int apps_hover32=0x7f02000a;
-        public static final int apps_hover48=0x7f02000b;
-        public static final int doelen24=0x7f02000c;
-        public static final int doelen32=0x7f02000d;
-        public static final int doelen48=0x7f02000e;
-        public static final int doelen_hover24=0x7f02000f;
-        public static final int doelen_hover32=0x7f020010;
-        public static final int doelen_hover48=0x7f020011;
-        public static final int ic_launcher=0x7f020012;
-        public static final int icon_account_tab=0x7f020013;
-        public static final int icon_apps_tab=0x7f020014;
-        public static final int icon_doelen_tab=0x7f020015;
-        public static final int icon_over_tab=0x7f020016;
-        public static final int over24=0x7f020017;
-        public static final int over32=0x7f020018;
-        public static final int over48=0x7f020019;
-        public static final int over_hover24=0x7f02001a;
-        public static final int over_hover32=0x7f02001b;
-        public static final int over_hover48=0x7f02001c;
+        public static final int appimage=0x7f020006;
+        public static final int apps24=0x7f020007;
+        public static final int apps32=0x7f020008;
+        public static final int apps48=0x7f020009;
+        public static final int apps_hover24=0x7f02000a;
+        public static final int apps_hover32=0x7f02000b;
+        public static final int apps_hover48=0x7f02000c;
+        public static final int dobbelsteen=0x7f02000d;
+        public static final int doelen24=0x7f02000e;
+        public static final int doelen32=0x7f02000f;
+        public static final int doelen48=0x7f020010;
+        public static final int doelen_hover24=0x7f020011;
+        public static final int doelen_hover32=0x7f020012;
+        public static final int doelen_hover48=0x7f020013;
+        public static final int ic_launcher=0x7f020014;
+        public static final int icon_account_tab=0x7f020015;
+        public static final int icon_apps_tab=0x7f020016;
+        public static final int icon_doelen_tab=0x7f020017;
+        public static final int icon_over_tab=0x7f020018;
+        public static final int over24=0x7f020019;
+        public static final int over32=0x7f02001a;
+        public static final int over48=0x7f02001b;
+        public static final int over_hover24=0x7f02001c;
+        public static final int over_hover32=0x7f02001d;
+        public static final int over_hover48=0x7f02001e;
     }
     public static final class id {
-        public static final int EditText01=0x7f08000a;
-        public static final int EditText02=0x7f08000e;
-        public static final int action_settings=0x7f08000f;
-        public static final int button1=0x7f080001;
-        public static final int button2=0x7f080002;
-        public static final int button3=0x7f080007;
-        public static final int button4=0x7f080008;
-        public static final int button5=0x7f08000b;
-        public static final int button6=0x7f08000c;
-        public static final int editText1=0x7f080005;
-        public static final int frameLayout1=0x7f080000;
-        public static final int ratingBar1=0x7f080004;
-        public static final int ratingBar2=0x7f080009;
-        public static final int ratingBar3=0x7f08000d;
-        public static final int textView1=0x7f080003;
-        public static final int textView2=0x7f080006;
+        public static final int EditText01=0x7f080018;
+        public static final int EditText02=0x7f08001c;
+        public static final int TextView01=0x7f08001e;
+        public static final int action_settings=0x7f08001f;
+        public static final int button1=0x7f080007;
+        public static final int button2=0x7f080012;
+        public static final int button3=0x7f080015;
+        public static final int button4=0x7f080016;
+        public static final int button5=0x7f080019;
+        public static final int button6=0x7f08001a;
+        public static final int editText1=0x7f080014;
+        public static final int frameLayout1=0x7f080011;
+        public static final int imageView1=0x7f080000;
+        public static final int imageView2=0x7f08001d;
+        public static final int quickContactBadge1=0x7f080009;
+        public static final int quickContactBadge2=0x7f08000c;
+        public static final int ratingBar1=0x7f080013;
+        public static final int ratingBar2=0x7f080017;
+        public static final int ratingBar3=0x7f08001b;
+        public static final int textView1=0x7f080001;
+        public static final int textView10=0x7f08000d;
+        public static final int textView11=0x7f08000e;
+        public static final int textView12=0x7f08000f;
+        public static final int textView13=0x7f080010;
+        public static final int textView2=0x7f080002;
+        public static final int textView3=0x7f080003;
+        public static final int textView4=0x7f080004;
+        public static final int textView5=0x7f080005;
+        public static final int textView6=0x7f080006;
+        public static final int textView7=0x7f080008;
+        public static final int textView8=0x7f08000b;
+        public static final int textView9=0x7f08000a;
     }
     public static final class layout {
         public static final int account_layout=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_main_erdi=0x7f030002;
-        public static final int apps_layout=0x7f030003;
-        public static final int doelen_layout=0x7f030004;
-        public static final int over_layout=0x7f030005;
+        public static final int app_vd_dag_scherm=0x7f030003;
+        public static final int apps_layout=0x7f030004;
+        public static final int doelen_layout=0x7f030005;
+        public static final int over_layout=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f070000;
     }
     public static final class string {
+        public static final int account_bedragbox1=0x7f05000f;
+        public static final int account_bedragbox2=0x7f050010;
+        public static final int account_box1=0x7f05000b;
+        public static final int account_box1tekst=0x7f05000c;
+        public static final int account_box2=0x7f05000d;
+        public static final int account_box2tekst=0x7f05000e;
+        public static final int account_email=0x7f050005;
+        public static final int account_loguit=0x7f050009;
+        /**  ACCOUNT SCHERM 
+         */
+        public static final int account_mijnaccount=0x7f050003;
+        public static final int account_naam=0x7f050004;
+        public static final int account_titel=0x7f050006;
+        public static final int account_titelonder=0x7f05000a;
+        public static final int account_totaal=0x7f050007;
+        public static final int account_totaalbedrag=0x7f050008;
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int dagapp_donatie=0x7f050016;
+        public static final int dagapp_donatie_app1=0x7f050017;
+        public static final int dagapp_donatie_app2=0x7f050018;
+        public static final int dagapp_download=0x7f050019;
+        public static final int dagapp_prijs=0x7f050015;
+        /**  APP VD DAG SCHERM 
+         */
+        public static final int dagapp_titel1=0x7f050013;
+        public static final int dagapp_titel2=0x7f050014;
         public static final int hello_world=0x7f050002;
+        public static final int over_informatie=0x7f050012;
+        /**  OVER ONS SCHERM 
+         */
+        public static final int over_titel=0x7f050011;
     }
     public static final class style {
         /** 
