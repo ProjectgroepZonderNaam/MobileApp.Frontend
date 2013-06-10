@@ -9,10 +9,11 @@
     tools:context=".MainActivity" >
 
     <FrameLayout
+        android:id="@+id/frameLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
         android:background="#66FFCC" >
 
         <TextView
@@ -54,10 +55,7 @@
                 android:background="#FFFFFF"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="test tekst tekst tekst tekst tekst tekst" >
-
-                <requestFocus />
-            </EditText>
+                android:text="test tekst tekst tekst tekst tekst tekst" />
         </FrameLayout>
 
         <FrameLayout
@@ -95,5 +93,42 @@
                 android:text="Info" />
         </FrameLayout>
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/frameLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:text="@string/account_titel"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/frameLayout1"
+        android:layout_alignTop="@+id/textView1"
+        android:src="@drawable/account48" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/frameLayout1"
+        android:text="@string/account_totaal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/TextView01"
+        android:text="@string/account_totaalbedrag"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
