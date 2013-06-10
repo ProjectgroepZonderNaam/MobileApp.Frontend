@@ -26,4 +26,13 @@
 	
 	<string name="over_titel">Moeilijk veel informatie.</string>
 	<string name="over_informatie">Bla bla bla lorem ipsum bla bla bla schaap. Jaja mooie app he echt super gemaakt.</string>
+	
+	<!-- APP VD DAG SCHERM -->
+	<string name="dagapp_titel1">Super geweldige</string>
+	<string name="dagapp_titel2">app van de dag.</string>
+	<string name="dagapp_prijs">€0,99</string>
+	<string name="dagapp_donatie">Doneer €0,15 aan:</string>
+	<string name="dagapp_donatie_app1">KWF Kankerbestrijding</string>
+	<string name="dagapp_donatie_app2">WNF Natuurfonds</string>
+	<string name="dagapp_download">Download Nu</string>
 </resources>
