@@ -24,16 +24,16 @@
         </activity>
         
         <!--  Apps Activity -->
-        <activity android:name=".AppsActivity" />
+        <activity android:name="AppsActivity" />
         
         <!--  Account Activity -->
-        <activity android:name=".AccountActivity" />
+        <activity android:name="AccountActivity" />
         
         <!--  Goede Doelen Activity -->
-        <activity android:name=".DoelenActivity" />
+        <activity android:name="DoelenActivity" />
         
         <!--  Over Activity -->
-        <activity android:name=".OverActivity" />
+        <activity android:name="OverActivity" />
         
     </application>
 
