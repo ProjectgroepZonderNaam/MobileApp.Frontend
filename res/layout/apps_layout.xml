@@ -2,43 +2,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
     tools:context=".MainActivity" >
-
-
 
     <FrameLayout
         android:id="@+id/frameLayout1"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="#CCFF33" >
+        android:layout_height="250dp"
+        android:background="#363636" >
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
+            android:layout_width="81dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginTop="110dp"
-            android:text="Download" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="10dp"
-            android:text="Donate" />
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="45dp"
+            android:background="#0084bf"
+            android:text="Download"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#0095bb"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
             android:text="Featured"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
 
         <RatingBar
             android:id="@+id/ratingBar1"
@@ -50,116 +46,47 @@
             android:id="@+id/editText1"
             android:layout_width="100dp"
             android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:clickable="false"
             android:ems="10"
-            android:inputType="textMultiLine" 
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="10dp"
+            android:inputType="text"
             android:text="test tekst"
-            android:background="#FFFFFF">
+            android:textColor="#FFFFFF"
+            android:textSize="12dp" >
 
-            <requestFocus />
+            <requestFocus android:layout_width="match_parent" />
         </EditText>
-
-
-
     </FrameLayout>
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="280dp"
-        android:layout_marginTop="160dp"
-        android:background="#66FFCC" >
+        android:layout_marginTop="260dp"
+        android:background="#343434" >
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Missed Apps"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <FrameLayout
-            android:layout_width="275dp"
-            android:layout_height="100dp"
-            android:background="#FFFFFF"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="25dp" >
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Donate" 
-                android:layout_marginLeft="192dp"
-                android:layout_marginTop="5dp"/>
-
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Download"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="170dp" />
-
-            <RatingBar
-                android:id="@+id/ratingBar2"
-                android:layout_width="120dp"
-            	android:layout_height="wrap_content"
-            	android:layout_marginTop="60dp" />
-
-            <EditText
-                android:id="@+id/EditText01"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="40dp"
-                android:background="#FFFFFF"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:text="test tekst" />
-
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="275dp"
-            android:layout_height="100dp"
-            android:background="#FFFFFF"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="140dp" >
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Donate" 
-                android:layout_marginLeft="192dp"
-                android:layout_marginTop="5dp"/>
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Download"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="170dp" />
-
-            <RatingBar
-                android:id="@+id/ratingBar3"
-                android:layout_width="120dp"
-            	android:layout_height="wrap_content"
-            	android:layout_marginTop="60dp" />
-
-            <EditText
-                android:id="@+id/EditText02"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="40dp"
-                android:background="#FFFFFF"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:text="test tekst" />
-
-        </FrameLayout>
-    </FrameLayout>
+            android:background="#0095bb"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Other apps"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+        
+       <ListView
+          android:id="@android:id/list"
+          android:fadingEdge="vertical"
+          android:fadingEdgeLength="10dp"
+          android:longClickable="true"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" >
+       </ListView>
+    </LinearLayout>
+    
 
 </RelativeLayout>

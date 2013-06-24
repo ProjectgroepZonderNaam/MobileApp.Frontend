@@ -54,25 +54,23 @@ public final class R {
         public static final int over_hover48=0x7f02001e;
     }
     public static final class id {
-        public static final int EditText01=0x7f080019;
-        public static final int EditText02=0x7f08001d;
-        public static final int TextView01=0x7f08001e;
-        public static final int action_settings=0x7f08001f;
+        public static final int EditText01=0x7f080015;
+        public static final int EditText02=0x7f08001a;
+        public static final int TextView01=0x7f08001c;
+        public static final int action_settings=0x7f08001d;
         public static final int button1=0x7f080007;
-        public static final int button2=0x7f080013;
-        public static final int button3=0x7f080014;
-        public static final int button4=0x7f080017;
-        public static final int button5=0x7f08001a;
+        public static final int button2=0x7f080016;
+        public static final int button3=0x7f080013;
+        public static final int button4=0x7f080014;
+        public static final int button5=0x7f080019;
         public static final int button6=0x7f08001b;
-        public static final int editText1=0x7f080016;
-        public static final int frameLayout1=0x7f080015;
+        public static final int editText1=0x7f080018;
+        public static final int frameLayout1=0x7f080017;
         public static final int imageView1=0x7f080000;
         public static final int imageView2=0x7f080011;
         public static final int quickContactBadge1=0x7f080009;
         public static final int quickContactBadge2=0x7f08000c;
         public static final int ratingBar1=0x7f080012;
-        public static final int ratingBar2=0x7f080018;
-        public static final int ratingBar3=0x7f08001c;
         public static final int textView1=0x7f080001;
         public static final int textView10=0x7f08000d;
         public static final int textView11=0x7f08000e;
@@ -91,10 +89,11 @@ public final class R {
         public static final int account_layout=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int app_buy_layout=0x7f030002;
-        public static final int app_vd_dag_scherm=0x7f030003;
-        public static final int apps_layout=0x7f030004;
-        public static final int doelen_layout=0x7f030005;
-        public static final int over_layout=0x7f030006;
+        public static final int app_item_layout=0x7f030003;
+        public static final int app_vd_dag_scherm=0x7f030004;
+        public static final int apps_layout=0x7f030005;
+        public static final int doelen_layout=0x7f030006;
+        public static final int over_layout=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f070000;
