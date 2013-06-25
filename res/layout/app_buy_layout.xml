@@ -2,38 +2,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF0000"
+    android:background="#000000"
     android:orientation="vertical" >
 
     <!-- Screen Design for Apps -->
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/app_titel"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="5dp"
-        android:text="Supergeweldige app van de dag" />
+        android:text="Supergeweldige app van de dag"
+        android:textColor="#FFFFFF"
+         />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/app_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="-40dp"
-        android:src="@drawable/appimage" />
+        android:src="@drawable/appimage"
+         />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/app_prijs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:text="€0.99"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
 
     <RatingBar
-        android:id="@+id/ratingBar1"
+        android:id="@+id/app_ratingbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
@@ -42,63 +46,66 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="#B404AE" 
+        android:background="#363636" 
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/app_doneerbedrag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Doneer €0.15 aan:"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF" />
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
-            android:background="#FFFFFF"
+            android:background="#0095bb"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" >
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/app_logogoeddoel1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/appimage" 
                 android:layout_marginLeft="10dp"/>
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/app_naamgoeddoel1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="KWF Kankerbestrijding" 
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"/>
         </FrameLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="100dp"
-            android:background="#FFFFFF"
+            android:background="#0095bb"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp" >
             
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/app_logogoeddoel2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/appimage" 
                 android:layout_marginLeft="10dp"/>
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/app_naamgoeddoel2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="WNF Natuurfonds" 
                 android:layout_marginLeft="100dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"/>
             
         </FrameLayout>
 
@@ -107,19 +114,22 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="40dp" 
-        android:background="#000000"
+        android:background="#0084bf"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp">
         
         
         	<TextView
-                android:id="@+id/textView5"
+                android:id="@+id/app_download"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Download" 
                 android:layout_marginLeft="110dp"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+            	android:textSize="12sp"
+            	android:textStyle="bold"/>
          
         
         
